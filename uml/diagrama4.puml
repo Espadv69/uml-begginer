@@ -1,5 +1,7 @@
 @startuml diagrama4
 
-    
+    == Comienzo ==
+
+    Elemento -x Elemento2
 
 @enduml
