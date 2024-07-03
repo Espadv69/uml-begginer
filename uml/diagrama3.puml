@@ -1,0 +1,8 @@
+@startuml diagrama3
+
+    actor Aitor
+    actor Olga
+
+    Aitor -> Olga : saluda
+
+@enduml
