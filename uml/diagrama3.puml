@@ -2,7 +2,12 @@
 
     actor Aitor
     actor Olga
+    database DataBase #red
 
-    Aitor -> Olga : saluda
+    Aitor -> DataBase: Saludas
+    Aitor -> Olga : Saluda
+    note right : cortesia
+    Olga -> Olga : ¿me está saludando?
+    Aitor <-- Olga : Hola
 
 @enduml
