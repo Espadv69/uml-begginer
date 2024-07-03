@@ -1,2 +1,2 @@
 
-<p>begginer UML</p>
+<p style="text-align: center; color: red;">begginer UML</p>
