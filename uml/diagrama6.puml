@@ -1,3 +1,15 @@
 @startuml diagrama6
 
+    class Clase {
+        toString()
+    }
+
+    class Clase2 {
+        String[] elementos
+        mostrarElementos 
+    }
+
+    Clase <|-[#0066ff]- Clase2
+    Clase <|-[#0066ff]- Clase3
+
 @enduml
