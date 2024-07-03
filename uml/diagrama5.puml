@@ -1,6 +1,8 @@
 @startuml diagrama5
 
-    Clase1 <|-- Clase2
-    Clase1 <|-- Clase3
+    Clase1 <|-[#0066ff]- Clase2
+    Clase1 <|-[#0066ff]- Clase3
+    Clase4 *-[#0066ff]- Clase5
+    Clase6 o-[#0066ff]- Clase7
 
 @enduml
