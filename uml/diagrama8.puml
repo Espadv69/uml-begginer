@@ -1,8 +1,12 @@
 @startuml diagrama8
 
-abstract Abstract {
-    -private
-    #protected
-}
+    abstract Abstract {
+        -private
+        #protected
+        ~package_private()
+        +public()
+    }
+
+    
 
 @enduml
