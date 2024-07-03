@@ -12,4 +12,15 @@
     Clase <|-[#0066ff]- Clase2
     Clase <|-[#0066ff]- Clase3
 
+    Clase4 "1" *-[#0066ff]- "n" Clase5 : agregar
+
+    class Clase8 {
+        have elements
+    }
+
+    Clase6 <|-[#0066ff]- Clase7
+    Clase6 <|-[#0066ff]- Clase8
+
+
+
 @enduml
