@@ -1,15 +1,12 @@
 @startuml diagrama9
 
     actor Aitor
-
     Aitor -> Formulario
 
     database Base #0066ff
-
     Formulario -> Base
 
-    Base -> Formulario 
-
-    Formulario -> Aitor 
+    Base -[#3AA6B9]-> Formulario 
+    Formulario -[#3AA6B9]-> Aitor 
     
 @enduml
