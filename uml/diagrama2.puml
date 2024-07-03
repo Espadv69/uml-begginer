@@ -1,5 +1,8 @@
 @startuml diagrama2
 
     Carlos -> Olga : saluda
+    Carlos <-- Olga : Hola
+    Carlos -> Andrea : saluda
+    Carlos <-- Andrea : Hola
 
 @enduml
