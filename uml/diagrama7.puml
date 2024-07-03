@@ -1,8 +1,17 @@
 @startuml diagrama7
 
+
     Clase1 .[#ff660f]. Clase2
     Clase1 -[#ff660f]- Clase3
-    Clase3 -[#0066ff]-> Clase4
-    Clase4 <|.[#0066ff]. Clase5
+
+    Clase3 -[#ff660f]-> Clase4
+
+    Clase4 <|.[#ff660f]. Clase5
+
+    Clase6 .[#ff00ff].> Clase7
+
+    Clase7 .[#ff00ff].|> Clase8
+    
+    Clase8 <-[#ff00ff]-* Clase9
 
 @enduml
