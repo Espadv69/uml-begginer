@@ -1,0 +1,7 @@
+@startuml diagrama
+
+    hola -> como estas
+
+    bien -> tu?
+
+@enduml
