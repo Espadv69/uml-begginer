@@ -1,25 +1,31 @@
 @startuml diagrama8
 
-    abstract Abstract {
+    abstract Abstract #C8CFA0 {
         -private
         #protected
         ~package_private()
         +public()
     }
 
-    interface Interfaz {
+    interface Interfaz #C8CFA0 {
         method()
     }
 
-    enum TimeUnit {
+    enum TimeUnit #C8CFA0 {
         DIAS
         HORAS
         MINUTOS
     }
 
-    class Clase #f040ff
+    class Clase #D6EFD8
+    class Clase2 #508D4E
+    class Clase3 #D6EFD8
+    class Clase4 #508D4E
 
     Abstract <|-[#0066ff]- Clase
     Abstract <|-[#0066ff]- Clase2
+
+    Interfaz .. Clase3
+    Interfaz .. Clase4
 
 @enduml
