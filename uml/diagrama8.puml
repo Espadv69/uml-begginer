@@ -17,4 +17,9 @@
         MINUTOS
     }
 
+    class Clase #f040ff
+
+    Abstract <|-[#0066ff]- Clase
+    Abstract <|-[#0066ff]- Clase2
+
 @enduml
