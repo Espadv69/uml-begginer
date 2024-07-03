@@ -2,6 +2,12 @@
 
     == Comienzo ==
 
-    Elemento -x Elemento2
+    Elemento -[#0066ff]x Elemento2
+    Elemento2 -[#0066ff]-\ Elemento
+    Elemento2 <-[#0066ff]> Elemento
+
+    == Final ==
+
+    Elemento -[#0066ff]>O Elemento2
 
 @enduml
