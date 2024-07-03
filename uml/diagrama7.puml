@@ -1,3 +1,8 @@
 @startuml diagrama7
 
+    Clase1 .[#ff660f]. Clase2
+    Clase1 -[#ff660f]- Clase3
+    Clase3 -[#0066ff]-> Clase4
+    Clase4 <|.[#0066ff]. Clase5
+
 @enduml
