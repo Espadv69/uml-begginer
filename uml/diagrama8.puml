@@ -12,7 +12,9 @@
     }
 
     enum TimeUnit {
-        
+        DIAS
+        HORAS
+        MINUTOS
     }
 
 @enduml
