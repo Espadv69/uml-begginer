@@ -1,5 +1,6 @@
 @startuml diagrama5
 
-    
+    Clase1 <|-- Clase2
+    Clase1 <|-- Clase3
 
 @enduml
