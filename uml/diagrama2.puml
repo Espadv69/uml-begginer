@@ -1,0 +1,5 @@
+@startuml diagrama2
+
+    Carlos -> Olga : saluda
+
+@enduml
