@@ -11,6 +11,8 @@
         method()
     }
 
-
+    enum TimeUnit {
+        
+    }
 
 @enduml
