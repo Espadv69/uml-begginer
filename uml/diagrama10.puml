@@ -1,3 +1,21 @@
 @startuml diagrama10
 
+actor Aitor
+hexagon Apto #9CDBA6
+hexagon NoApto #B80000
+rectangle Notas
+rectangle Recuperacion
+rectangle Suspenso #820300
+rectangle Aprobado #DEF9C4
+circle Final #Black
+
+Aitor -> Notas
+Notas --> Suspenso : <5
+Notas --> Aprobado : 5>
+Aprobado -> Apto
+Suspenso -> NoApto
+NoApto --> Recuperacion
+Recuperacion -- Notas
+Apto -- Final
+
 @enduml
