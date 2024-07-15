@@ -1,3 +1,18 @@
 @startuml diagrama14
 
+:Main: as Admin
+(Uso de la aplicacion) as (Use)
+User --> (start)
+(start) --> (Use)
+Admin --> (Use)
+note right of Admin : Esto es un ejemplo
+note right of (Use)
+Una linea
+Dos lineas
+end note
+
+note "Otra forma de hacer notas" as Nota
+(start) .. Nota
+Nota .. (Use)
+
 @enduml
