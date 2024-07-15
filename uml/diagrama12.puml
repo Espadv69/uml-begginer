@@ -1,3 +1,10 @@
 @startuml diagrama12
 
+skinparam actorStyle awesome
+:User: --> (user)
+"Application user" as (user)
+
+"Main" as Admin
+Admin --> (Application admin)
+
 @enduml
