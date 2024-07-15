@@ -1,3 +1,9 @@
 @startuml diagrama11
 
+(first Usecase)
+(another Usecase) as (Usecase2)
+
+usecase Usecase3
+usecase (last/Usecase) as (Usecase4)
+
 @enduml
