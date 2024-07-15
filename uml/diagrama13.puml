@@ -1,3 +1,23 @@
 @startuml diagrama13
 
+left to right direction
+actor Guest as g
+
+package profesional {
+    actor chef as c
+    actor "crítico" as fc
+}
+
+package restaurante {
+    usecase "degustacion" as UC1
+    usecase "desayuno" as UC2
+    usecase "comida" as UC3
+    usecase "cena" as UC4
+}
+
+fc --> UC1
+g --> UC2
+g --> UC3
+g --> UC4
+
 @enduml
