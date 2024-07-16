@@ -1,3 +1,17 @@
 @startuml diagrama15
 
+[*] --> Registros
+
+Registros : src
+
+state src {
+    Registro : Estudiantes
+    Registro : Profesores
+    Consultas : Mixta
+}
+
+Registros -[#0066ff]-> src
+src -[#0066ff]-> otrosEnlaces
+otrosEnlaces --> [*]
+
 @enduml
