@@ -1,5 +1,11 @@
-@startuml login
+@startsalt login
 
 skinparam BackgroundColor Palegreen
 
-@enduml
+{+
+    Login | " Aitor"
+    password | " ****"
+    [Entrar] | [Reset]
+}
+
+@endsalt
