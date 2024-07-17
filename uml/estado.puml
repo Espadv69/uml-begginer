@@ -1,3 +1,18 @@
 @startuml estado
 
+set namespaceSeparator ::
+class Ingreso::Tabla::Descargar {
+    + fecha : Date
+    + concepto : String
+    + unidad : String
+    + costo : Double
+    + gasto : Double
+    + importe : Double
+    + saldo : Double
+}
+
+Ingreso --> EXCEL 
+note top of EXCEL
+Se debe construir una tabla para descarga el archivo en CSV
+endnote
 @enduml
