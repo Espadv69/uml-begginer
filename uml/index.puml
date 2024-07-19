@@ -1,3 +1,7 @@
 @startuml index
 
+Index : Inicio de la App
+Clave : 
+Id : Admin, Docencia, coordinación
+
 @enduml
