@@ -3,5 +3,15 @@
 Index : Inicio de la App
 Clave : 
 Id : Admin, Docencia, coordinación
+Link : All
+Link2 : Restricciones
+Link3 : Restricciones
+
+Index --> Clave 
+Clave --> Id
+
+Link <-- Id
+Link2 <-- Id
+Link3 <-- Id
 
 @enduml
