@@ -1,9 +1,14 @@
 @startuml diagrama17
 
-map ciudades {
+object Pais
+
+map "**CITIES** MAP" as cc {
     Torrejon => Madrid
     Hortaleza => Madrid
     Getafe => Madrid
 }
+
+Pais => cc
+
 
 @enduml
