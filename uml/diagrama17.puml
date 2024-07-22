@@ -1,3 +1,9 @@
 @startuml diagrama17
 
+map ciudades {
+    Torrejon => Madrid
+    Hortaleza => Madrid
+    Getafe => Madrid
+}
+
 @enduml
