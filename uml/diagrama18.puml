@@ -1,3 +1,20 @@
 @startuml diagrama18
 
+package cocina {
+    object carne
+}
+
+package sala {
+
+}
+
+package bar {
+    map A{
+        B *-> cocina.carne
+        C =>
+    } 
+}
+
+A::C --> cocina
+
 @enduml
