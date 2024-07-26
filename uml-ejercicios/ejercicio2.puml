@@ -1,0 +1,29 @@
+@startuml ejercicio2
+
+start
+:Persona desea subir su masa muscular;
+if (Hacer ejercicio?) then (Sí)
+    if (Ejercicio adecuado?) then (Sí)
+        :Aumentará la masa muscular;
+    else (No)
+        :Bajará la masa muscular;
+    endif
+else (No)
+    :Ningún cambio en la masa muscular;
+endif
+
+if (Tomar proteína?) then (Sí)
+    :Aumentará la masa muscular;
+else (No)
+    :Ningún cambio en la masa muscular;
+endif
+
+if (Alimentación con alta grasa o alta proteína?) then (Alta proteína)
+    :Aumentará la masa muscular;
+else (Alta grasa)
+    :Ningún cambio en la masa muscular;
+endif
+
+stop
+
+@enduml
