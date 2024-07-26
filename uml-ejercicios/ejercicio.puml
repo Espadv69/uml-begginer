@@ -1,0 +1,12 @@
+@startuml ejercicio
+
+class Persona {
+    - nombre: String
+    - primerApellido: String
+    - segundoApellido: String
+    - fechaNacimiento: Date
+    - sexo: char
+    - numeroIdentificacion: String
+}
+
+@enduml
